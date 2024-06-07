@@ -7,6 +7,11 @@
     "ts-jest": "^29.1.4"
   },
   "scripts": {
-    "test": "jest"
-    }
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "mongoose": "^5.13.22",
+    "ts-mongoose": "^0.0.24"
+  }
 }
